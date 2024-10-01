@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leaderboard-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.leaderboard-table th, .leaderboard-table td {
+    padding: 15px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    text-align: left;
+}
+
+.leaderboard-table th {
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.leaderboard-table td {
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+}
+
+.leaderboard-table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* Hover effect on table rows */
+.leaderboard-table tr:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Button styles (if needed) */
+a {
+    text-decoration: none;
+    background: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+a:hover {
+    background: #ff3f31;
+}

@@ -1,0 +1,70 @@
+/* General reset for body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc); 
+    color: #fff; /* Text color changed to white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the table */
+.table-container {
+    background: rgba(255, 255, 255, 0.1); /* Slight transparent white */
+    border-radius: 10px;
+    padding: 20px;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+    text-align: center;
+    margin: auto;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    color: #fff; /* Text color changed to white */
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Table header */
+table th {
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Table rows */
+table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.05); /* Alternating row colors */
+}
+
+table tr:hover {
+    background: rgba(255, 255, 255, 0.15); /* Highlight on hover */
+}
+
+/* Button styling */
+.attempt-btn {
+    background: linear-gradient(135deg, #9C27B0, #673AB7); /* Purple haze background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.attempt-btn:hover {
+    background: linear-gradient(135deg, #7B1FA2, #512DA8); /* Slightly darker purple haze on hover */
+    transform: scale(1.05);
+}

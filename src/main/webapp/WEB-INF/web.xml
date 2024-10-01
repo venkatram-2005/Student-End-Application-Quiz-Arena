@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>Sample Project For Trails</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>SubjectsServlet</display-name>
+    <servlet-name>SubjectsServlet</servlet-name>
+    <servlet-class>com.SubjectsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SubjectsServlet</servlet-name>
+    <url-pattern>/SubjectsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AdminChooseSubjectServlet</display-name>
+    <servlet-name>AdminChooseSubjectServlet</servlet-name>
+    <servlet-class>com.quizarena.AdminChooseSubjectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminChooseSubjectServlet</servlet-name>
+    <url-pattern>/AdminChooseSubjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddQuestionServlet</display-name>
+    <servlet-name>AddQuestionServlet</servlet-name>
+    <servlet-class>com.quizarena.AddQuestionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddQuestionServlet</servlet-name>
+    <url-pattern>/AddQuestionServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    min-height: 100%; /* Ensure the body takes the full height */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: 50px auto; /* Ensure the container is centered with top margin */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #ffd700;
+}
+
+.questions-container {
+    text-align: left;
+    margin-top: 30px;
+    overflow-y: auto; /* Allows vertical scrolling for the questions */
+}
+
+.question-box {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid #ffd700;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.question {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ffeb3b;
+}
+
+.options label {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.options input[type="radio"] {
+    margin-right: 10px;
+}
+
+.submit-btn {
+    background: #ffd700;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #ffeb3b;
+    transform: scale(1.05);
+}
